@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adnext"
+    android:orientation="vertical"
+    android:padding="24sp">
+
+
+
+    <EditText
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30sp"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        />
+
+    <EditText
+        android:layout_marginLeft="30sp"
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/email"
+        />
+
+    <EditText
+        android:layout_marginLeft="30sp"
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/type"
+         />
+
+    <EditText
+        android:layout_marginLeft="30sp"
+        android:id="@+id/serial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+       android:hint="@string/Serial"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <EditText
+        android:layout_marginLeft="30sp"
+        android:id="@+id/ime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/IME"
+        android:inputType="phone"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:gravity="center"
+        android:layout_marginLeft="150sp"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">try</string>
+    <string name="IME">IMEI</string>
+    <string name="Serial">serial</string>
+    <string name="type">types of phone</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="Enterpassword">Enter passwoed</string>
+</resources>
